@@ -21,6 +21,7 @@ async function createWindow() {
     minWidth: 500,
     minHeight: 600,
     title: "Izposojevalnica Avtek",
+    autoHideMenuBar: true,
     webPreferences: {
       
       // Use pluginOptions.nodeIntegration, leave this alone
